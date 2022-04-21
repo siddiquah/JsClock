@@ -16,7 +16,7 @@ function setClock() {
     mn.style.transform = `rotateZ(${mm}deg)`
     sc.style.transform = `rotateZ(${ss}deg)`
 
-    let hours = document.getElementById('hour');
+    let hours = document.getElementById('hours');
     let minutes = document.getElementById('minutes');
     let seconds = document.getElementById('seconds');
     let ampm = document.getElementById('ampm');
